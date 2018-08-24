@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="139" visitedSequencePoints="114" numBranchPoints="39" visitedBranchPoints="24" sequenceCoverage="82.01" branchCoverage="61.54" maxCyclomaticComplexity="5" minCyclomaticComplexity="0" maxCrapScore="30" minCrapScore="0" visitedClasses="7" numClasses="8" visitedMethods="22" numMethods="27" />
+  <Modules>
+    <Module hash="CF-2A-CE-53-62-17-6B-9B-74-8B-05-BB-E1-58-B5-34-5F-28-FA-2E">
+      <Summary numSequencePoints="62" visitedSequencePoints="62" numBranchPoints="10" visitedBranchPoints="10" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="2" numClasses="2" visitedMethods="10" numMethods="10" />
+      <ModulePath>C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain.Tests\bin\Debug\BancoTabajara.Domain.Tests.dll</ModulePath>
+      <ModuleTime>2018-07-24T20:57:40.8284038Z</ModuleTime>
+      <ModuleName>BancoTabajara.Domain.Tests</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain.Tests\Features\Contas\ContaDomainTest.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="61" visitedSequencePoints="61" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="9" numMethods="9" />
+          <FullName>BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_CalcularSaldoTotal_Deveria_Retornar_Saldo_mais_Limite()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="12" sl="23" sc="13" el="23" ec="73" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="4" ordinal="3" offset="67" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="1" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_AlterarEstado_Deveria_Mudar_Conta_para_Inativa()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="5" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="6" ordinal="1" offset="1" sl="29" sc="13" el="29" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="7" ordinal="2" offset="12" sl="30" sc="13" el="30" ec="41" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="8" ordinal="3" offset="25" sl="31" sc="13" el="31" ec="47" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="9" ordinal="4" offset="57" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="5" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_AlterarEstado_Deveria_Mudar_Conta_para_Ativa()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="10" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="11" ordinal="1" offset="1" sl="37" sc="13" el="37" ec="58" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="12" ordinal="2" offset="12" sl="38" sc="13" el="38" ec="40" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="13" ordinal="3" offset="25" sl="39" sc="13" el="39" ec="46" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="14" ordinal="4" offset="57" sl="40" sc="9" el="40" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="10" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="3" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarDeposito_Deveria_Adicionar_Valor_No_Saldo_E_Criar_Movimentacao()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="15" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="16" ordinal="1" offset="1" sl="45" sc="13" el="45" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="17" ordinal="2" offset="12" sl="46" sc="13" el="46" ec="42" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="18" ordinal="3" offset="33" sl="47" sc="13" el="47" ec="80" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="19" ordinal="4" offset="85" sl="48" sc="13" el="48" ec="68" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="20" ordinal="5" offset="123" sl="49" sc="13" el="49" ec="93" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="21" ordinal="6" offset="176" sl="50" sc="13" el="50" ec="65" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="22" ordinal="7" offset="227" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="15" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="4" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarSaque_Deveria_Remover_Valor_Do_Saldo_E_Criar_Movimentacao()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="23" ordinal="0" offset="0" sl="55" sc="9" el="55" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="24" ordinal="1" offset="1" sl="56" sc="13" el="56" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="25" ordinal="2" offset="12" sl="57" sc="13" el="57" ec="39" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="26" ordinal="3" offset="33" sl="58" sc="13" el="58" ec="80" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="27" ordinal="4" offset="85" sl="59" sc="13" el="59" ec="68" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="28" ordinal="5" offset="123" sl="60" sc="13" el="60" ec="92" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="29" ordinal="6" offset="176" sl="61" sc="13" el="61" ec="65" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="30" ordinal="7" offset="227" sl="62" sc="9" el="62" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="23" ordinal="0" offset="0" sl="55" sc="9" el="55" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="5" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarSaque_ComSaldoInsuficiente_Nao_Deveria_Permitir_Nao_Deveria_Criar_Movimentacao()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="31" ordinal="0" offset="0" sl="66" sc="9" el="66" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="32" ordinal="1" offset="1" sl="67" sc="13" el="67" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="33" ordinal="2" offset="12" sl="68" sc="13" el="68" ec="62" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="34" ordinal="3" offset="25" sl="70" sc="13" el="70" ec="65" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="35" ordinal="4" offset="47" sl="71" sc="13" el="71" ec="74" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="36" ordinal="5" offset="89" sl="72" sc="13" el="72" ec="57" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="37" ordinal="6" offset="127" sl="73" sc="9" el="73" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="31" ordinal="0" offset="0" sl="66" sc="9" el="66" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="13" visitedSequencePoints="13" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarTransferencia_Deveria_Debitar_De_Conta_E_Creditar_Em_Outra()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="38" ordinal="0" offset="0" sl="77" sc="9" el="77" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="39" ordinal="1" offset="1" sl="78" sc="13" el="78" ec="63" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="40" ordinal="2" offset="7" sl="79" sc="13" el="79" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="41" ordinal="3" offset="18" sl="80" sc="13" el="80" ec="61" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="42" ordinal="4" offset="40" sl="82" sc="13" el="82" ec="80" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="43" ordinal="5" offset="92" sl="83" sc="13" el="83" ec="68" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="44" ordinal="6" offset="130" sl="84" sc="13" el="84" ec="92" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="45" ordinal="7" offset="183" sl="85" sc="13" el="85" ec="65" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="46" ordinal="8" offset="234" sl="86" sc="13" el="86" ec="86" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="47" ordinal="9" offset="281" sl="87" sc="13" el="87" ec="74" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="48" ordinal="10" offset="314" sl="88" sc="13" el="88" ec="99" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="49" ordinal="11" offset="362" sl="89" sc="13" el="89" ec="71" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="50" ordinal="12" offset="408" sl="91" sc="9" el="91" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="38" ordinal="0" offset="0" sl="77" sc="9" el="77" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="7" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarTransferencia_ComSaldoInsuficiente_Nao_Deveria_Permitir_Nao_Deveria_Criar_Movimentacao()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="51" ordinal="0" offset="13" sl="95" sc="9" el="95" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="52" ordinal="1" offset="14" sl="96" sc="13" el="96" ec="63" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="53" ordinal="2" offset="25" sl="97" sc="13" el="97" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="54" ordinal="3" offset="36" sl="98" sc="13" el="98" ec="84" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="55" ordinal="4" offset="49" sl="100" sc="13" el="100" ec="65" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="56" ordinal="5" offset="71" sl="101" sc="13" el="101" ec="74" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="57" ordinal="6" offset="113" sl="102" sc="13" el="102" ec="57" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="58" ordinal="7" offset="151" sl="103" sc="13" el="103" ec="80" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="59" ordinal="8" offset="193" sl="104" sc="13" el="104" ec="63" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="60" ordinal="9" offset="231" sl="105" sc="9" el="105" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="61" ordinal="0" offset="0">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="8" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="62" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::&lt;Domain_Conta_RealizarSaque_ComSaldoInsuficiente_Nao_Deveria_Permitir_Nao_Deveria_Criar_Movimentacao&gt;b__6_0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="63" ordinal="0" offset="0" sl="68" sc="35" el="68" ec="61" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="63" ordinal="0" offset="0" sl="68" sc="35" el="68" ec="61" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest/&lt;&gt;c__DisplayClass8_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest/&lt;&gt;c__DisplayClass8_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="64" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest/&lt;&gt;c__DisplayClass8_0::&lt;Domain_Conta_RealizarTransferencia_ComSaldoInsuficiente_Nao_Deveria_Permitir_Nao_Deveria_Criar_Movimentacao&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="65" ordinal="0" offset="0" sl="98" sc="35" el="98" ec="83" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="65" ordinal="0" offset="0" sl="98" sc="35" el="98" ec="83" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="8" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods>
+        <TrackedMethod uid="1" token="100663297" name="System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_CalcularSaldoTotal_Deveria_Retornar_Saldo_mais_Limite()" strategy="NUnitTest" />
+        <TrackedMethod uid="2" token="100663298" name="System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_AlterarEstado_Deveria_Mudar_Conta_para_Inativa()" strategy="NUnitTest" />
+        <TrackedMethod uid="3" token="100663299" name="System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_AlterarEstado_Deveria_Mudar_Conta_para_Ativa()" strategy="NUnitTest" />
+        <TrackedMethod uid="4" token="100663300" name="System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarDeposito_Deveria_Adicionar_Valor_No_Saldo_E_Criar_Movimentacao()" strategy="NUnitTest" />
+        <TrackedMethod uid="5" token="100663301" name="System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarSaque_Deveria_Remover_Valor_Do_Saldo_E_Criar_Movimentacao()" strategy="NUnitTest" />
+        <TrackedMethod uid="6" token="100663302" name="System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarSaque_ComSaldoInsuficiente_Nao_Deveria_Permitir_Nao_Deveria_Criar_Movimentacao()" strategy="NUnitTest" />
+        <TrackedMethod uid="7" token="100663303" name="System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarTransferencia_Deveria_Debitar_De_Conta_E_Creditar_Em_Outra()" strategy="NUnitTest" />
+        <TrackedMethod uid="8" token="100663304" name="System.Void BancoTabajara.Domain.Tests.Features.Contas.ContaDomainTest::Domain_Conta_RealizarTransferencia_ComSaldoInsuficiente_Nao_Deveria_Permitir_Nao_Deveria_Criar_Movimentacao()" strategy="NUnitTest" />
+      </TrackedMethods>
+    </Module>
+    <Module hash="8E-14-FC-DE-CF-98-9B-D0-79-23-4A-6A-14-87-ED-A6-9D-54-A6-24">
+      <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <ModulePath>C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain.Tests\bin\Debug\BancoTabajara.Common.Tests.dll</ModulePath>
+      <ModuleTime>2018-07-24T20:57:40.6068143Z</ModuleTime>
+      <ModuleName>BancoTabajara.Common.Tests</ModuleName>
+      <Files>
+        <File uid="5" fullPath="C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Common.Tests\Features\Contas\ContaObjectMother.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>BancoTabajara.Common.Tests.Features.Contas.ContaObjectMother</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>BancoTabajara.Domain.Features.Contas.Conta BancoTabajara.Common.Tests.Features.Contas.ContaObjectMother::GetConta()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="16" uspid="66" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="4" vc="2" />
+                    <TrackedMethodRef uid="6" vc="2" />
+                    <TrackedMethodRef uid="5" vc="2" />
+                    <TrackedMethodRef uid="8" vc="4" />
+                    <TrackedMethodRef uid="7" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="16" uspid="67" ordinal="1" offset="1" sl="14" sc="13" el="21" ec="15" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="4" vc="2" />
+                    <TrackedMethodRef uid="6" vc="2" />
+                    <TrackedMethodRef uid="5" vc="2" />
+                    <TrackedMethodRef uid="8" vc="4" />
+                    <TrackedMethodRef uid="7" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="16" uspid="68" ordinal="2" offset="61" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="4" vc="2" />
+                    <TrackedMethodRef uid="6" vc="2" />
+                    <TrackedMethodRef uid="5" vc="2" />
+                    <TrackedMethodRef uid="8" vc="4" />
+                    <TrackedMethodRef uid="7" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="16" uspid="66" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="5">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                  <TrackedMethodRef uid="1" vc="1" />
+                  <TrackedMethodRef uid="4" vc="2" />
+                  <TrackedMethodRef uid="6" vc="2" />
+                  <TrackedMethodRef uid="5" vc="2" />
+                  <TrackedMethodRef uid="8" vc="4" />
+                  <TrackedMethodRef uid="7" vc="4" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>BancoTabajara.Domain.Features.Contas.Conta BancoTabajara.Common.Tests.Features.Contas.ContaObjectMother::GetContaInativa()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="69" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="70" ordinal="1" offset="1" sl="26" sc="13" el="33" ec="15" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="71" ordinal="2" offset="61" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="69" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="5">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="3" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void BancoTabajara.Common.Tests.Features.Contas.ContaObjectMother::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="72" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods />
+    </Module>
+    <Module hash="CF-75-25-E9-9A-81-6A-D6-F3-C2-B9-42-39-8C-E2-05-C4-AB-CB-53">
+      <Summary numSequencePoints="71" visitedSequencePoints="46" numBranchPoints="27" visitedBranchPoints="12" sequenceCoverage="64.79" branchCoverage="44.44" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="1" visitedClasses="4" numClasses="5" visitedMethods="10" numMethods="15" />
+      <ModulePath>C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain.Tests\bin\Debug\BancoTabajara.Domain.dll</ModulePath>
+      <ModuleTime>2018-07-24T20:57:40.3621599Z</ModuleTime>
+      <ModuleName>BancoTabajara.Domain</ModuleName>
+      <Files>
+        <File uid="7" fullPath="C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain\Features\Movimentacoes\Movimentacao.cs" />
+        <File uid="8" fullPath="C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain\Features\Contas\Conta.cs" />
+        <File uid="9" fullPath="C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain\Features\Contas\SaldoInsuficienteException.cs" />
+        <File uid="10" fullPath="C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain\Features\Clientes\Cliente.cs" />
+        <File uid="11" fullPath="C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain\Exceptions\BusinessException.cs" />
+        <File uid="12" fullPath="C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain\Base\Entidade.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>BancoTabajara.Domain.Features.Movimentacoes.Movimentacao</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.DateTime BancoTabajara.Domain.Features.Movimentacoes.Movimentacao::get_Data()</Name>
+              <FileRef uid="7" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Movimentacoes.Movimentacao::set_Data(System.DateTime)</Name>
+              <FileRef uid="7" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Double BancoTabajara.Domain.Features.Movimentacoes.Movimentacao::get_Valor()</Name>
+              <FileRef uid="7" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Movimentacoes.Movimentacao::set_Valor(System.Double)</Name>
+              <FileRef uid="7" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663301</MetadataToken>
+              <Name>BancoTabajara.Domain.Features.Movimentacoes.TipoOperacaoEnum BancoTabajara.Domain.Features.Movimentacoes.Movimentacao::get_TipoOperacao()</Name>
+              <FileRef uid="7" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Movimentacoes.Movimentacao::set_TipoOperacao(BancoTabajara.Domain.Features.Movimentacoes.TipoOperacaoEnum)</Name>
+              <FileRef uid="7" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Movimentacoes.Movimentacao::GerarMovimentacao(BancoTabajara.Domain.Features.Movimentacoes.TipoOperacaoEnum,System.Double)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="73" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="2" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="74" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="41" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="2" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="75" ordinal="2" offset="9" sl="19" sc="13" el="19" ec="27" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="2" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="76" ordinal="3" offset="17" sl="20" sc="13" el="20" ec="33" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="2" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="77" ordinal="4" offset="29" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="2" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="73" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="7">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="4" vc="1" />
+                  <TrackedMethodRef uid="5" vc="1" />
+                  <TrackedMethodRef uid="7" vc="2" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Movimentacoes.Movimentacao::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="78" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="34" visitedSequencePoints="34" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="7" />
+          <FullName>BancoTabajara.Domain.Features.Contas.Conta</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663305</MetadataToken>
+              <Name>BancoTabajara.Domain.Features.Clientes.Cliente BancoTabajara.Domain.Features.Contas.Conta::get_Cliente()</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::set_Cliente(BancoTabajara.Domain.Features.Clientes.Cliente)</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Int32 BancoTabajara.Domain.Features.Contas.Conta::get_NumeroConta()</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::set_NumeroConta(System.Int32)</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Double BancoTabajara.Domain.Features.Contas.Conta::get_Saldo()</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::set_Saldo(System.Double)</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Domain.Features.Contas.Conta::get_Ativada()</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::set_Ativada(System.Boolean)</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Double BancoTabajara.Domain.Features.Contas.Conta::get_Limite()</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::set_Limite(System.Double)</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Double BancoTabajara.Domain.Features.Contas.Conta::get_SaldoTotal()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="79" ordinal="0" offset="0" sl="20" sc="40" el="20" ec="41" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="80" ordinal="1" offset="1" sl="20" sc="42" el="20" ec="65" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="81" ordinal="2" offset="10" sl="20" sc="66" el="20" ec="67" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="79" ordinal="0" offset="0" sl="20" sc="40" el="20" ec="41" bec="0" bev="0" fileid="8">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="1" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Collections.Generic.ICollection`1&lt;BancoTabajara.Domain.Features.Movimentacoes.Movimentacao&gt; BancoTabajara.Domain.Features.Contas.Conta::get_Movimentacoes()</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::set_Movimentacoes(System.Collections.Generic.ICollection`1&lt;BancoTabajara.Domain.Features.Movimentacoes.Movimentacao&gt;)</Name>
+              <FileRef uid="8" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::.ctor()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="17" uspid="82" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="23" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="4" vc="2" />
+                    <TrackedMethodRef uid="6" vc="2" />
+                    <TrackedMethodRef uid="5" vc="2" />
+                    <TrackedMethodRef uid="8" vc="4" />
+                    <TrackedMethodRef uid="7" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="17" uspid="83" ordinal="1" offset="7" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="4" vc="2" />
+                    <TrackedMethodRef uid="6" vc="2" />
+                    <TrackedMethodRef uid="5" vc="2" />
+                    <TrackedMethodRef uid="8" vc="4" />
+                    <TrackedMethodRef uid="7" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="17" uspid="84" ordinal="2" offset="8" sl="24" sc="13" el="24" ec="60" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="4" vc="2" />
+                    <TrackedMethodRef uid="6" vc="2" />
+                    <TrackedMethodRef uid="5" vc="2" />
+                    <TrackedMethodRef uid="8" vc="4" />
+                    <TrackedMethodRef uid="7" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="17" uspid="85" ordinal="3" offset="20" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="4" vc="2" />
+                    <TrackedMethodRef uid="6" vc="2" />
+                    <TrackedMethodRef uid="5" vc="2" />
+                    <TrackedMethodRef uid="8" vc="4" />
+                    <TrackedMethodRef uid="7" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="17" uspid="82" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="23" bec="0" bev="0" fileid="8">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="3" vc="1" />
+                  <TrackedMethodRef uid="2" vc="1" />
+                  <TrackedMethodRef uid="1" vc="1" />
+                  <TrackedMethodRef uid="4" vc="2" />
+                  <TrackedMethodRef uid="6" vc="2" />
+                  <TrackedMethodRef uid="5" vc="2" />
+                  <TrackedMethodRef uid="8" vc="4" />
+                  <TrackedMethodRef uid="7" vc="4" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Double BancoTabajara.Domain.Features.Contas.Conta::CalcularSaldo()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="86" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="87" ordinal="1" offset="1" sl="28" sc="13" el="28" ec="35" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="88" ordinal="2" offset="17" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="86" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="8">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="1" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::AlterarEstado(System.Boolean)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="89" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="90" ordinal="1" offset="1" sl="33" sc="13" el="33" ec="30" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="91" ordinal="2" offset="9" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="89" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="8">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="3" vc="1" />
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::RealizarDeposito(System.Double)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="92" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="93" ordinal="1" offset="1" sl="38" sc="1" el="38" ec="48" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="94" ordinal="2" offset="7" sl="39" sc="13" el="39" ec="28" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="95" ordinal="3" offset="22" sl="40" sc="13" el="40" ec="77" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="96" ordinal="4" offset="31" sl="41" sc="13" el="41" ec="45" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="97" ordinal="5" offset="44" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="92" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="8">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="4" vc="1" />
+                  <TrackedMethodRef uid="7" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::RealizarSaque(System.Double)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="98" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="99" ordinal="1" offset="1" sl="46" sc="11" el="46" ec="58" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="100" ordinal="2" offset="7" sl="47" sc="13" el="47" ec="33" bec="2" bev="2" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="101" ordinal="3" offset="23" sl="48" sc="13" el="48" ec="14" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="102" ordinal="4" offset="24" sl="49" sc="17" el="49" ec="32" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="103" ordinal="5" offset="39" sl="50" sc="17" el="50" ec="80" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="104" ordinal="6" offset="48" sl="51" sc="17" el="51" ec="49" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="105" ordinal="7" offset="61" sl="52" sc="13" el="52" ec="14" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="106" ordinal="8" offset="64" sl="54" sc="13" el="54" ec="14" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="107" ordinal="9" offset="65" sl="55" sc="17" el="55" ec="56" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="108" ordinal="10" offset="71" sl="57" sc="9" el="57" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="109" ordinal="0" offset="21" sl="47" path="0" offsetend="23" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="2" uspid="110" ordinal="1" offset="21" sl="47" path="1" offsetend="64" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="98" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="8">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                  <TrackedMethodRef uid="5" vc="1" />
+                  <TrackedMethodRef uid="8" vc="1" />
+                  <TrackedMethodRef uid="7" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.Conta::RealizarTransferencia(System.Double,BancoTabajara.Domain.Features.Contas.Conta)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="111" ordinal="0" offset="0" sl="60" sc="9" el="60" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="112" ordinal="1" offset="1" sl="61" sc="13" el="61" ec="34" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="8" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="113" ordinal="2" offset="9" sl="62" sc="13" el="62" ec="45" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="114" ordinal="3" offset="17" sl="63" sc="9" el="63" ec="10" bec="0" bev="0" fileid="8">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="111" ordinal="0" offset="0" sl="60" sc="9" el="60" ec="10" bec="0" bev="0" fileid="8">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="8" vc="1" />
+                  <TrackedMethodRef uid="7" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>BancoTabajara.Domain.Features.Contas.SaldoInsuficienteException</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Contas.SaldoInsuficienteException::.ctor()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="115" ordinal="0" offset="0" sl="12" sc="47" el="12" ec="119" bec="0" bev="0" fileid="9">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="116" ordinal="1" offset="17" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="9">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="117" ordinal="2" offset="18" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="9">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="115" ordinal="0" offset="0" sl="12" sc="47" el="12" ec="119" bec="0" bev="0" fileid="9">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                  <TrackedMethodRef uid="8" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>BancoTabajara.Domain.Features.Clientes.Cliente</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.String BancoTabajara.Domain.Features.Clientes.Cliente::get_Nome()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Clientes.Cliente::set_Nome(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.String BancoTabajara.Domain.Features.Clientes.Cliente::get_CPF()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Clientes.Cliente::set_CPF(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.String BancoTabajara.Domain.Features.Clientes.Cliente::get_RG()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Clientes.Cliente::set_RG(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.DateTime BancoTabajara.Domain.Features.Clientes.Cliente::get_DataNascimento()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Clientes.Cliente::set_DataNascimento(System.DateTime)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Features.Clientes.Cliente::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="118" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>BancoTabajara.Domain.Exceptions.BusinessException</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663345</MetadataToken>
+              <Name>BancoTabajara.Domain.Exceptions.ErrorCodes BancoTabajara.Domain.Exceptions.BusinessException::get_ErrorCode()</Name>
+              <FileRef uid="11" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663344</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Exceptions.BusinessException::.ctor(BancoTabajara.Domain.Exceptions.ErrorCodes,System.String)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="119" ordinal="0" offset="0" sl="11" sc="74" el="11" ec="87" bec="0" bev="0" fileid="11">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="120" ordinal="1" offset="8" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="11">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="121" ordinal="2" offset="9" sl="13" sc="13" el="13" ec="35" bec="0" bev="0" fileid="11">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="122" ordinal="3" offset="16" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="11">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="8" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="119" ordinal="0" offset="0" sl="11" sc="74" el="11" ec="87" bec="0" bev="0" fileid="11">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                  <TrackedMethodRef uid="8" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="25" visitedSequencePoints="0" numBranchPoints="15" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="5" />
+          <FullName>BancoTabajara.Domain.Base.Entidade</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663346</MetadataToken>
+              <Name>System.Int32 BancoTabajara.Domain.Base.Entidade::get_Id()</Name>
+              <FileRef uid="12" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663347</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Base.Entidade::set_Id(System.Int32)</Name>
+              <FileRef uid="12" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="5" nPathComplexity="8" sequenceCoverage="0" branchCoverage="0" crapScore="30" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="7" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="30" minCrapScore="30" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663348</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Domain.Base.Entidade::Equals(System.Object)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="123" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="124" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="41" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="125" ordinal="2" offset="8" sl="26" sc="13" el="26" ec="46" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="126" ordinal="3" offset="16" sl="27" sc="17" el="27" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="127" ordinal="4" offset="20" sl="29" sc="13" el="29" ec="46" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="128" ordinal="5" offset="28" sl="30" sc="17" el="30" ec="29" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="129" ordinal="6" offset="32" sl="32" sc="13" el="32" ec="42" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="130" ordinal="7" offset="58" sl="33" sc="17" el="33" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="131" ordinal="8" offset="62" sl="35" sc="13" el="35" ec="35" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="132" ordinal="9" offset="79" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="133" ordinal="0" offset="14" sl="26" path="0" offsetend="16" fileid="12" />
+                <BranchPoint vc="0" uspid="134" ordinal="1" offset="14" sl="26" path="1" offsetend="20" fileid="12" />
+                <BranchPoint vc="0" uspid="135" ordinal="2" offset="26" sl="29" path="0" offsetend="28" fileid="12" />
+                <BranchPoint vc="0" uspid="136" ordinal="3" offset="26" sl="29" path="1" offsetend="32" fileid="12" />
+                <BranchPoint vc="0" uspid="139" ordinal="6" offset="56" sl="32" path="0" offsetend="58" fileid="12" />
+                <BranchPoint vc="0" uspid="140" ordinal="7" offset="56" sl="32" path="1" offsetend="62" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="123" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="5" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" crapScore="30" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="30" minCrapScore="30" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663349</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Domain.Base.Entidade::op_Equality(BancoTabajara.Domain.Base.Entidade,BancoTabajara.Domain.Base.Entidade)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="141" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="142" ordinal="1" offset="1" sl="46" sc="13" el="46" ec="70" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="143" ordinal="2" offset="15" sl="47" sc="17" el="47" ec="29" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="144" ordinal="3" offset="19" sl="49" sc="13" el="49" ec="70" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="145" ordinal="4" offset="33" sl="50" sc="17" el="50" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="146" ordinal="5" offset="37" sl="52" sc="13" el="52" ec="32" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="147" ordinal="6" offset="47" sl="53" sc="9" el="53" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="150" ordinal="2" offset="13" sl="46" path="0" offsetend="15" fileid="12" />
+                <BranchPoint vc="0" uspid="151" ordinal="3" offset="13" sl="46" path="1" offsetend="19" fileid="12" />
+                <BranchPoint vc="0" uspid="154" ordinal="6" offset="31" sl="49" path="0" offsetend="33" fileid="12" />
+                <BranchPoint vc="0" uspid="155" ordinal="7" offset="31" sl="49" path="1" offsetend="37" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="141" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663350</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Domain.Base.Entidade::op_Inequality(BancoTabajara.Domain.Base.Entidade,BancoTabajara.Domain.Base.Entidade)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="156" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="157" ordinal="1" offset="1" sl="63" sc="13" el="63" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="158" ordinal="2" offset="14" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="156" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663351</MetadataToken>
+              <Name>System.Int32 BancoTabajara.Domain.Base.Entidade::GetHashCode()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="159" ordinal="0" offset="0" sl="70" sc="9" el="70" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="160" ordinal="1" offset="1" sl="71" sc="13" el="71" ec="37" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="161" ordinal="2" offset="18" sl="72" sc="9" el="72" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="159" ordinal="0" offset="0" sl="70" sc="9" el="70" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663352</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Base.Entidade::Validar()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="162" ordinal="0" offset="0" sl="78" sc="39" el="78" ec="40" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="163" ordinal="1" offset="1" sl="78" sc="41" el="78" ec="42" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="162" ordinal="0" offset="0" sl="78" sc="39" el="78" ec="40" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663353</MetadataToken>
+              <Name>System.Void BancoTabajara.Domain.Base.Entidade::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="164" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods />
+    </Module>
+    <Module hash="16-77-C5-B4-18-25-F4-34-C9-FD-28-BC-59-DD-A9-6F-E0-87-C1-8A">
+      <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+      <ModulePath>C:\Users\ndduser\Desktop\Academia 2018\Skywalkers\SkyWalkers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Domain.Tests\bin\Debug\BancoTabajara.Infra.dll</ModulePath>
+      <ModuleTime>2018-07-24T19:38:17.464664Z</ModuleTime>
+      <ModuleName>BancoTabajara.Infra</ModuleName>
+      <Files />
+      <Classes />
+      <TrackedMethods />
+    </Module>
+  </Modules>
+</CoverageSession>

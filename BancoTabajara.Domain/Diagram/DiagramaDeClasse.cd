@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BancoTabajara.Domain.Features.Clientes.Cliente" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAACAAAIAAQAAAAAAAAEAAAA=</HashCode>
+      <FileName>Features\Clientes\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BancoTabajara.Domain.Features.Contas.Conta" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAIQAAAAAAAACAAQAAAAAACQACAAIABAAAGCA=</HashCode>
+      <FileName>Features\Contas\Conta.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cliente" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Movimentacoes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BancoTabajara.Domain.Features.Movimentacoes.Movimentacao" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAEAAAAARAAAQAAAAAAAAA=</HashCode>
+      <FileName>Features\Movimentacoes\Movimentacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

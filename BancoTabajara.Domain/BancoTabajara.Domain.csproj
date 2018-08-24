@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE1022B8-7528-4E39-9040-549BE7EC5CC9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BancoTabajara.Domain</RootNamespace>
+    <AssemblyName>BancoTabajara.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonServiceLocator.SimpleInjectorAdapter, Version=2.8.1.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.SimpleInjectorAdapter.2.8.2\lib\portable-net4+sl4+wp8+win8+wpa81\CommonServiceLocator.SimpleInjectorAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.CommonServiceLocator.1.2.2\lib\net35\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector, Version=2.8.0.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.2.8.0\lib\net45\SimpleInjector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\Entidade.cs" />
+    <Compile Include="Exceptions\BusinessException.cs" />
+    <Compile Include="Exceptions\ErrorCodes.cs" />
+    <Compile Include="Exceptions\NotFoundException.cs" />
+    <Compile Include="Features\Clientes\Cliente.cs" />
+    <Compile Include="Features\Clientes\ClienteCPFInvalidoException.cs" />
+    <Compile Include="Features\Clientes\ClienteDataNascimentoInvalidoException.cs" />
+    <Compile Include="Features\Clientes\ClienteNomeVazioException.cs" />
+    <Compile Include="Features\Clientes\ClienteRGInvalidoException.cs" />
+    <Compile Include="Features\Clientes\IClienteRepository.cs" />
+    <Compile Include="Features\Contas\Conta.cs" />
+    <Compile Include="Features\Contas\ContaClienteInvalidoException.cs" />
+    <Compile Include="Features\Contas\ContaLimiteInvalidoException.cs" />
+    <Compile Include="Features\Contas\ContaNumeroAlteradoException.cs" />
+    <Compile Include="Features\Contas\ContaNumeroContaInvalidaException.cs" />
+    <Compile Include="Features\Contas\ContaSaldoMenorQueZeroException.cs" />
+    <Compile Include="Features\Contas\IContaRepository.cs" />
+    <Compile Include="Features\Contas\ContaSaldoInsuficienteException.cs" />
+    <Compile Include="Features\Extratos\Extrato.cs" />
+    <Compile Include="Features\Movimentacoes\Movimentacao.cs" />
+    <Compile Include="Features\Movimentacoes\MovimentacaoDataInvalidaException.cs" />
+    <Compile Include="Features\Movimentacoes\MovimentacaoTipoOperacaoInvalidaException.cs" />
+    <Compile Include="Features\Movimentacoes\MovimentacaoValorInvalidoException.cs" />
+    <Compile Include="Features\Movimentacoes\TipoOperacaoEnum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Diagram\DiagramaDeClasse.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BancoTabajara.Infra\BancoTabajara.Infra.csproj">
+      <Project>{290A660C-EEFF-4974-9B57-2A6FF76BA3F6}</Project>
+      <Name>BancoTabajara.Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
