@@ -199,6 +199,8 @@
     <Compile Include="Extensions\QueryExtensions.cs" />
     <Compile Include="Filters\CustomAuthorizeAttribute.cs" />
     <Compile Include="Filters\ExceptionHandlerAttribute.cs" />
+    <Compile Include="Logger\CustomLogHandler.cs" />
+    <Compile Include="Logger\LogMetadata.cs" />
     <Compile Include="Provider\OAuthProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IoC\SimpleInjectorInitializer.cs" />
@@ -206,10 +208,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Keys.config" />
-    <Content Include="log4net.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <SubType>Designer</SubType>
-    </Content>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -231,6 +229,10 @@
     <ProjectReference Include="..\BancoTabajara.Infra.ORM\BancoTabajara.Infra.ORM.csproj">
       <Project>{5B435110-591A-46F0-A7C4-12BEFDB56C26}</Project>
       <Name>BancoTabajara.Infra.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BancoTabajara.Infra\BancoTabajara.Infra.csproj">
+      <Project>{290A660C-EEFF-4974-9B57-2A6FF76BA3F6}</Project>
+      <Name>BancoTabajara.Infra</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

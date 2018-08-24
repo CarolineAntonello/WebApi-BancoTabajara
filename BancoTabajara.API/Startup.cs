@@ -1,5 +1,6 @@
 ﻿using BancoTabajara.API.App_Start;
 using BancoTabajara.API.IoC;
+using BancoTabajara.API.Logger;
 using BancoTabajara.Applications.Mapping;
 using Microsoft.Owin;
 using Owin;
@@ -26,6 +27,9 @@ namespace BancoTabajara.API
             HttpConfiguration config = new HttpConfiguration();
             // Configura a autenticação
             OAuthConfig.ConfigureOAuth(app);
+
+            config.MessageHandlers.Add(new CustomLogHandler());
+
             // Inicia a API com as configurações
             app.UseWebApi(config);
 

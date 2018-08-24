@@ -122,45 +122,87 @@ namespace BancoTabajara.Infra.Logger
 
         #region Info
 
-        /// <summary>
         /// Loga a mensagem passada. Nível: Info
-        /// </summary>
-        /// <param name="messageFunc">Método que irá gerar a mensagem</param>
         public static void Info(string message)
         {
             CurrentClassLogger.Info(message);
         }
 
-        /// <summary>
         /// Loga a mensagem passada. Nível: Info
-        /// </summary>
-        /// <param name="message">Mensagem</param>
         public static void Info(Func<string> messageFunc)
         {
             CurrentClassLogger.Info(messageFunc);
         }
 
-        /// <summary>
         /// Loga a mensagem e exceção passada. Nível: Info
-        /// </summary>
-        /// <param name="message">mensagem</param>
-        /// <param name="exception">Exceção</param>
         public static void InfoException(string message, Exception exception)
         {
             CurrentClassLogger.Info(message, exception);
         }
 
-        /// <summary>
         /// Loga a mensagem passada e formata com os parametros passados (string.format). Nível: Fatal
-        /// </summary>
-        /// <param name="message">Mensagem</param>
-        /// <param name="args">Pâmetros</param>
         public static void Info(string message, params object[] args)
         {
             CurrentClassLogger.InfoFormat(message, args);
         }
 
         #endregion Info
+
+        #region Trace
+
+        /// Loga a mensagem passada. Nível: Info
+        public static void Trace(Func<string> messageFunc)
+        {
+            CurrentClassLogger.Info(messageFunc);
+        }
+
+        /// Loga a mensagem passada. Nível: Trace
+        public static void Trace(string message)
+        {
+            CurrentClassLogger.Info(message);
+        }
+
+        /// Loga a mensagem e exceção passada. Nível: Trace
+        public static void TraceException(string message, Exception exception)
+        {
+            CurrentClassLogger.Info(message, exception);
+        }
+
+        /// Loga a mensagem passada e formata com os parametros passados (string.format). Nível: Trace
+        public static void Trace(string message, params object[] args)
+        {
+            CurrentClassLogger.Info(string.Format(message, args));
+        }
+
+        #endregion Trace
+
+        #region Warn
+
+        /// Loga a mensagem passada. Nivel: Warn.
+        public static void Warn(Func<string> messageFunc)
+        {
+            CurrentClassLogger.Warn(messageFunc);
+        }
+
+        /// Loga a mensagem passada. Nível: Warn
+        public static void Warn(string message)
+        {
+            CurrentClassLogger.Warn(message);
+        }
+
+        /// Loga a mensagem e exceção passada. Nível: Warn
+        public static void WarnException(string message, Exception exception)
+        {
+            CurrentClassLogger.Warn(message, exception);
+        }
+
+        /// Loga a mensagem passada e formata com os parametros passados (string.format). Nível: Warn
+        public static void Warn(string message, params object[] args)
+        {
+            CurrentClassLogger.WarnFormat(message, args);
+        }
+
+        #endregion Warn
 
     }
 }
