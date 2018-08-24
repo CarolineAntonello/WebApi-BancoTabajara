@@ -5,6 +5,7 @@ using BancoTabajara.Applications.Features.Clientes;
 using BancoTabajara.Applications.Features.Clientes.Commands;
 using BancoTabajara.Applications.Features.Clientes.ViewModel;
 using BancoTabajara.Domain.Features.Clientes;
+using BancoTabajara.Infra.Logger;
 using log4net;
 using System.Web.Http;
 
@@ -15,7 +16,6 @@ namespace BancoTabajara.API.Controllers.Clientes
     public class ClientesController : ApiControllerBase
     {
         private IClienteService _clienteService;
-        private static readonly ILog _log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         public ClientesController(IClienteService clienteService)
         {
@@ -25,55 +25,55 @@ namespace BancoTabajara.API.Controllers.Clientes
         [HttpPost]
         public IHttpActionResult Post(ClienteRegisterCommand clienteCmd)
         {
-            _log.Info("Iniciando Post de cliente!");
-            _log.Info("Validando dados do cliente!");
+            TraceLogManager.Info("Iniciando Post de cliente!");
+            TraceLogManager.Info("Validando dados do cliente!");
             var validator = clienteCmd.Validar();
             if (!validator.IsValid)
             {
-                _log.Error("Dado invalido: " + validator.Errors[0]);
+                TraceLogManager.Error("Dado invalido: " + validator.Errors[0]);
                 return HandleValidationFailure(validator.Errors);
             }
-            _log.Info("Dados do cliente válidos.");
-            _log.Info("Adicionando cliente");
+            TraceLogManager.Info("Dados do cliente válidos.");
+            TraceLogManager.Info("Adicionando cliente");
             return HandleCallback(() => _clienteService.Add(clienteCmd));
         }
 
         [HttpPut]
         public IHttpActionResult Put(ClienteUpdateCommand clienteCmd)
         {
-            _log.Info("Iniciando Put de cliente!");
-            _log.Info("Validando dados do cliente!");
+            TraceLogManager.Info("Iniciando Put de cliente!");
+            TraceLogManager.Info("Validando dados do cliente!");
             var validator = clienteCmd.Validar();
             if (!validator.IsValid)
             {
-                _log.Error("Dado invalido: " + validator.Errors[0]);
+                TraceLogManager.Error("Dado invalido: " + validator.Errors[0]);
                 return HandleValidationFailure(validator.Errors);
             }
-            _log.Info("Dados do cliente válidos!");
-            _log.Info("Atualizando cliente!");
+            TraceLogManager.Info("Dados do cliente válidos!");
+            TraceLogManager.Info("Atualizando cliente!");
             return HandleCallback(() => _clienteService.Update(clienteCmd));
         }
 
         [HttpDelete]
         public IHttpActionResult Delete(ClienteRemoveCommand clienteCmd)
         {
-            _log.Info("Iniciando Delete do cliente!");
-            _log.Info("Validando dados do cliente!");
+            TraceLogManager.Info("Iniciando Delete do cliente!");
+            TraceLogManager.Info("Validando dados do cliente!");
             var validator = clienteCmd.Validar();
             if (!validator.IsValid)
             {
-                _log.Error("Dado invalido: " + validator.Errors[0]);
+                TraceLogManager.Error("Dado invalido: " + validator.Errors[0]);
                 return HandleValidationFailure(validator.Errors);
             }
-            _log.Info("Dados do cliente válidos!");
-            _log.Info("Deletando cliente!");
+            TraceLogManager.Info("Dados do cliente válidos!");
+            TraceLogManager.Info("Deletando cliente!");
             return HandleCallback(() => _clienteService.Delete(clienteCmd));
         }
 
         [HttpGet]
         public IHttpActionResult Get()
         {
-            _log.Info("Obtendo dados de todos os cliente por get");
+            TraceLogManager.Info("Obtendo dados de todos os cliente por get");
             var quantidade = Request.GetQueryQuantidadeExtension();
             return HandleQueryable<Cliente, ClienteViewModel>(_clienteService.GetAll(quantidade));
         }
@@ -82,7 +82,7 @@ namespace BancoTabajara.API.Controllers.Clientes
         [Route("{id:int}")]
         public IHttpActionResult GetById(int id)
         {
-            _log.Info("Obtendo dados do cliente por get");
+            TraceLogManager.Info("Obtendo dados do cliente por get");
             return HandleQuery<Cliente, ClienteViewModel>(_clienteService.GetById(id));
         }
     }
